@@ -1,0 +1,18 @@
+{
+  "name": "ParzivâL",
+  "version": "1.0.0",
+  "description": "ParzivâL Register Botu",
+  "main": "parzival.js",
+  "scripts": {
+    "start": "node parzival.js"
+  },
+  "engines": {
+    "node": "16.6"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aoi.js": "^5.1.1",
+    "ytdl-core-discord": "^1.3.1"
+  }
+}
