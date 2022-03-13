@@ -5,7 +5,7 @@ prefix: "$getServerVar[prefix]",
 intents: "all" 
 })
 
-const loader = new aoijs.LoadCommands(bot)
+const loader = new parzi.LoadCommands(bot)
 loader.load(bot.cmd,"./komutlar/")
 
 ////////// CALLBACKS \\\\\\\\\\
