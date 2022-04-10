@@ -3,6 +3,7 @@ module.exports = {
   aliases:"e",
   description:"Üyeyi erkek olarak kayıt eder",
   code:`
+  $setUserVar[isimler;$getUserVar[isimler;$message[1]]\n$message[2] | $message[3] ( <@&$getServerVar[erkek]> );$message[1]]
   $setUserVar[kke;$authorID;$message[1]]
   $setUserVar[toplamk;$sum[$getUserVar[toplamk];1]]
   $setUserVar[erkekk;$sum[$getUserVar[erkekk];1]]
