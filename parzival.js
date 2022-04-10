@@ -37,6 +37,7 @@ bot.variables({
   yhrol:"",//Yeni hesap rolü ID
   yhlog:"",//Yeni hesap logu ID
   tag:"",//Tag 
+  isimler:"",
   tick:"",//Onay emoji ID örn: ✅
   cross:""//Red emoji ID örn: ❎
 })
